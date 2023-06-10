@@ -1,0 +1,56 @@
+.dest
+{
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    
+}
+.dest .img{
+    width: 100%;
+    height: auto;
+    
+}
+.dest h1{
+    font-size: 5rem;
+    font-weight: 800;
+    background: black;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.dest p{
+    font-size: 2rem;
+    color: black;
+    padding: 1rem 0 2rem 0;
+}
+.first-text
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem; */
+}
+.img1
+{
+    width: 30vw;
+    height: auto;
+}
+
+
+/* contact page */
+.con_design
+{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200%;
+}
+.con_design h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}

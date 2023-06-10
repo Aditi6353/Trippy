@@ -1,0 +1,65 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+height: auto;
+}
+/* #body_id
+{
+    background-image: url('../images/p10.png');
+    background-repeat: no-repeat;
+    background-size:100% 700%;
+} */
+
+
+.about-contact
+{
+    flex: 1;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.about-contact h1{
+    font-size: 5rem;
+    font-weight: 800;
+    background:#fff;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.about-contact p{
+    font-size: 18px;
+    line-height: 1.5;
+    color:#fff;
+}
+.about-contact .read-more
+{
+display: inline-block;
+padding: 10px 20px;
+background-color: #4caf50;
+color: #fff;
+font-size: 19px;
+text-decoration: none;
+border-radius: 25px;
+margin-top: 15px;
+transition: 0.3s ease;
+}
+
+.about-contact .read-more:hover
+{
+    background-color: #3e8e41;
+}
+@media screen and (max-width:768px)
+{
+.about-contact{
+    padding: 0px;
+    font-size: 16px;
+}
+.about-contact .read-more
+{
+    font-size: 17px;
+}
+}

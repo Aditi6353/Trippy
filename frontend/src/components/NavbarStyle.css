@@ -1,0 +1,111 @@
+#body_id
+{
+    background-image: url('../images/p1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* #body_id
+{
+    background-image: url('../images/p10.png');
+    background-repeat: no-repeat;
+    background-size:100% 700%;
+} */
+
+.roundedbtn
+{
+height: 35px;
+width: 35px;
+
+}
+.NavbarItem
+{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #fdfbfb;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 27px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 , 0.25);
+    width: 98%;
+    height: 80px;
+    border-radius: 13px;
+}
+.img-pic
+{
+    display: flex;
+    width: 100px;
+}
+.NavbarItem h2
+{
+    color:brown;
+
+}
+/* home_page */
+.text
+
+{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200%;
+}
+.text h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.text p{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0 2rem 0;
+}
+.text a{
+text-decoration: none;
+padding: 0.6rem 1.1rem;
+border-radius: 6px;
+font-size: 1.3rem;
+
+background: #fff;
+}
+.home_edit
+{
+    margin-top: 35vh;
+    color: #fff;
+   
+}
+.homecard-dis{
+    margin-top:44vh;
+}
+
+/* sevice */
+.card-dis{
+    margin-top:44vh;
+}
+
+.service_edit
+{
+    margin-top: 35vh;
+    color: #fff;
+   
+}
+
+.service_edit h1
+{
+    font-size: 5rem;
+}
+.card_img_margin
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.footerp{
+    
+    font: size 3rem;
+}
