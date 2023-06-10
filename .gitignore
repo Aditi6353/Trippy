@@ -4,7 +4,7 @@
 */node_modules
 /.pnp
 .pnp.js
-mumbai_ubuntu-21123.pem
+./mumbai_ubuntu-21123.pem
 
 # testing
 /coverage
